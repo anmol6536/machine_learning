@@ -1,5 +1,4 @@
 import keras as k
-import keras.datasets.mnist
 import tensorflow as tf
 
 (x_train, y_train), (x_val, y_val) = k.datasets.mnist.load_data()
